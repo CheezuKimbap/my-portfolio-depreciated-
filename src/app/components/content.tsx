@@ -38,15 +38,15 @@ const Hero = () => {
                 <div className="mx-auto text-xs lg:text-default w-[170px] lg:w-[250px] rounded-xl px-4 h-8 lg:h-10 flex justify-center items-center text-center bg-[#232328] transition-all ease-in-out duration-300">
                     <h1 className="text-white">Hi, I am Jan Eris Saludo</h1>
                 </div>
-
                 <h1
-                    className={`text-white ${saira.className} font-bold text-xl  md:text-4xl lg:text-5xl px-4 mx-auto w-[400px] md:w-[640px] lg:w-[800px] text-center lg:leading-normal transition-all ease-in-out duration-300`}
+                    className={`text-white ${saira.className} font-bold text-xl md:text-4xl lg:text-5xl px-4 mx-auto w-[400px] md:w-[640px] lg:w-[800px] text-center lg:leading-normal transition-all ease-in-out duration-300`}
                 >
-                    Passionate{" "}
-                    <span className="text-[#3478F6]">full-stack developer</span> with a
-                    focus on building
-                    <span className="text-[#3478F6]"> innovative web solutions</span>
+                    I build <span className="text-[#3478F6]">scalable full-stack applications</span> that
+                    turn ideas into
+                    <span className="text-[#3478F6]"> production-ready solutions</span>
                 </h1>
+
+
 
                 <Button></Button>
             </div>
@@ -176,16 +176,22 @@ export const About = () => {
                         <div className="bg-[#41A2EB] w-[54px] h-2 rounded-md"></div>
                     </div>
 
-                    <p className="text-white mx-6  text-xs lg:text-lg my-4 text-justify ">
-                        Hi there! I recently graduated with a Bachelor of Science and
-                        Technology in Software Development. I’ve got a solid foundation in
-                        programming and software creation, and I’m known for being a quick
-                        learner. I enjoy diving into new technologies and figuring out how
-                        they work. <br></br>
-                        <br></br> I’ve tackled a range of projects, from web apps to mobile
-                        apps, and I’m excited to bring my skills and enthusiasm to a new
-                        team. Whether it's coding, collaborating, or picking up new tools,
-                        I'm always ready for the challenge and eager to keep growing.
+                    <p className="text-gray-300 leading-relaxed mt-4">
+                        I’m a full-stack developer focused on building reliable, scalable web
+                        applications from concept to deployment. I thrive on solving complex
+                        challenges and turning ideas into structured, production-ready systems.
+                    </p>
+
+                    <p className="text-gray-300 leading-relaxed mt-4">
+                        My approach combines clean architecture, performance optimization, and
+                        thoughtful user experience. Whether working on frontend interfaces or
+                        backend logic, I prioritize maintainability, efficiency, and real-world
+                        usability.
+                    </p>
+
+                    <p className="text-gray-300 leading-relaxed mt-4">
+                        I’m constantly improving my craft, exploring new technologies, and building
+                        projects that push my technical and problem-solving abilities further.
                     </p>
 
                     <h1 className="text-white text-[28px] font-semibold my-4">
@@ -201,12 +207,13 @@ export const About = () => {
                                 <div className="flex-1 flex items-center text-white">
                                     <div>
                                         <h3 className="text-[16px] font-bold text-white">
-                                            Learning
+                                            Frontend Engineering
                                         </h3>
                                         <p className="text-[10px] font-medium">
-                                            I'm currently taking online courses to improve my
-                                            programming skills.
+                                            Developing responsive and high-performance interfaces using React and
+                                            Next.js, with a strong focus on usability and clean component architecture.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -220,12 +227,13 @@ export const About = () => {
                                 <div className="flex-1 flex items-center text-white">
                                     <div>
                                         <h3 className="text-[16px] font-bold text-white">
-                                            Frontend Development
+                                            Full-Stack Development
                                         </h3>
                                         <p className="text-[10px] font-medium">
-                                            I am currently utilizing React and Next.js to create
-                                            dynamic web applications.
+                                            1.5+ years of experience building scalable web applications using modern
+                                            frontend and backend technologies, from database design to deployment.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -239,12 +247,14 @@ export const About = () => {
                                 <div className="flex-1 flex items-center text-white">
                                     <div>
                                         <h3 className="text-[16px] font-bold text-white">
-                                            Backend Development
+                                            Backend & API Development
                                         </h3>
                                         <p className="text-[10px] font-medium">
-                                            I use Laravel for backend development in some projects and
-                                            Next.js for SSR and API routes in other projects.
+                                            Building secure APIs and backend systems using Laravel and Next.js API
+                                            routes, implementing authentication, database optimization, and scalable
+                                            architecture.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -258,13 +268,13 @@ export const About = () => {
                                 <div className="flex-1 flex items-center text-white">
                                     <div>
                                         <h3 className="text-[16px] font-bold text-white">
-                                            Game Development
+                                            Creative & Side Projects
                                         </h3>
                                         <p className="text-[10px] font-medium">
-                                            I develop games as a hobby using Unity, leveraging its
-                                            powerful engine to create immersive and engaging
-                                            experiences.
+                                            Exploring game development with Unity and experimenting with new
+                                            technologies to continuously expand my technical skill set.
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +305,7 @@ export const Resume = () => {
                         <div className="bg-[#41A2EB] w-[54px] h-2 rounded-md"></div>
                     </div>
                     <a
-                        href="/resume/resume-janerissaludo.pdf"
+                        href="/resume/janerissaludo_resume_10192025.pdf"
                         download
                         className="hidden md:flex hover:bg-[#232328] bg-[#1D1D21] w-[160px] h-[50px]  justify-center items-center text-white rounded-md text-[18px]"
                     >
@@ -311,91 +321,52 @@ export const Resume = () => {
                 </div>
 
                 <div className="my-8 lg:mx-12">
-                    <div className="flex gap-4 justify-items-center items-center">
-                        <div className="w-10 h-10 border border-white/10 text-[#3478F6] flex justify-center items-center rounded-lg">
-                            <IoMdBook />
-                        </div>
-                        <h1 className="font-medium text-[26px] text-white">Education</h1>
-                    </div>
 
-                    <ol className="relative border-s border-white/10 pl-4 ml-5 text-white ">
-                        <li>
-                            <time className="inline-block h-full"></time>
-                        </li>
-                        <li className="mb-4 ms-4">
-                            <Image
-                                src="/resume/timeline.svg"
-                                alt="Timeline Dot"
-                                width={12}
-                                height={12}
-                                className="absolute -start-1.5"
-                            />
-                            <time className="text-sm font-semibold">Primary School</time>
-                            <h2 className="text-lg font-medium">
-                                Lord of Lords Christian School
-                            </h2>
-                            <p className="text-sm text-gray-400">2008 - 2014</p>
-                        </li>
 
-                        <li className="mb-4 ms-4">
-                            <Image
-                                src="/resume/timeline.svg"
-                                alt="Timeline Dot"
-                                width={12}
-                                height={12}
-                                className="absolute -start-1.5"
-                            />
-                            <time className="text-sm font-semibold">High School</time>
-                            <h2 className="text-lg font-medium">
-                                Marinduque National High School
-                            </h2>
-                            <p className="text-sm text-gray-400">2014 - 2018</p>
-                        </li>
-
-                        <li className="mb-4 ms-4">
-                            <Image
-                                src="/resume/timeline.svg"
-                                alt="Timeline Dot"
-                                width={12}
-                                height={12}
-                                className="absolute -start-1.5"
-                            />
-                            <time className="text-sm font-semibold">Senior High School</time>
-                            <h2 className="text-lg font-medium">
-                                Marinduque Midwest College
-                            </h2>
-                            <p className="text-sm text-gray-400">2018 - 2020</p>
-                        </li>
-                        <li className=" ms-4 ">
-                            <Image
-                                src="/resume/timeline.svg"
-                                alt="Timeline Dot"
-                                width={12}
-                                height={12}
-                                className="absolute -start-1.5"
-                            />
-                            <time className="text-sm font-semibold">College</time>
-                            <h2 className="text-lg font-medium">
-                                Marinduque State University
-                            </h2>
-                            <p className="text-sm font-light font text-gray-400">
-                                2020 - 2024
-                            </p>
-                            <p className="text-sm text-gray-400">
-                                Bachelor of Science in Information Technology - Major in
-                                Software Development
-                            </p>
-                        </li>
-                    </ol>
-
-                    <div className="my-8">
+                    <div className="my-8 ">
                         <div className="flex gap-4 justify-items-center items-center">
                             <div className="w-10 h-10 border border-white/10 text-[#3478F6] flex justify-center items-center rounded-lg">
                                 <IoMdBook />
                             </div>
                             <h1 className="font-medium text-[26px] text-white">Experience</h1>
                         </div>
+                        <ol className="mt-4 relative border-s border-white/10 pl-4 ml-5 text-white ">
+                            <li className="ms-4">
+                                <Image
+                                    src="/resume/timeline.svg"
+                                    alt="Timeline Dot"
+                                    width={12}
+                                    height={12}
+                                    className="absolute -start-1.5"
+                                />
 
+                                <h2 className="text-lg font-medium">
+                                    Junior Systems Developer
+                                </h2>
+                                <h3 className="text-base text-[#3478F6] font-medium">
+                                    Cloud Manila
+                                </h3>
+
+                                <p className="text-sm font-light text-gray-400">
+                                    September 2024 – Present
+                                </p>
+
+                                <p className="text-sm text-gray-400 mt-2 leading-relaxed">
+                                    Contributing to the development and maintenance of enterprise systems
+                                    built with AngularJS and ASP.NET. Responsible for diagnosing and resolving
+                                    production issues, implementing new features, and improving system
+                                    performance to enhance overall reliability and user experience.
+                                </p>
+
+                                <ul className="mt-3 text-sm text-gray-400 space-y-1 list-disc ml-4">
+                                    <li>Fixed critical bugs and improved system stability</li>
+                                    <li>Developed and integrated new application features</li>
+                                    <li>Collaborated with cross-functional teams on system enhancements</li>
+                                    <li>Optimized existing code for better performance and maintainability</li>
+                                </ul>
+                            </li>
+
+                        </ol>
                         <ol className="relative border-s border-white/10 pl-4 ml-5 text-white ">
                             <li className="">
                                 <time className="inline-block h-full"></time>
@@ -411,7 +382,9 @@ export const Resume = () => {
                                 <h2 className="text-lg font-medium">
                                     Internship - Software Development
                                 </h2>
-                                <h2 className="text-lg font-medium">Cloud Manila</h2>
+                                <h3 className="text-base text-[#3478F6] font-medium">
+                                    Cloud Manila
+                                </h3>
                                 <p className="text-sm font-light font text-gray-400">
                                     February - May 2024
                                 </p>
